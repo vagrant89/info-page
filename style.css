@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    font-size: 1rem;
+}
+header{
+    background-color: rgb(95,192,205);
+    height: 4rem;
+    width:100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+.back-btn{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+header>div{
+    text-align: center;
+    position: relative;
+    top: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+.background{
+    width: 100%;
+    background-image: url("images/info_02.png");
+    background-repeat: no-repeat;
+    background-size: 111%;
+    position: relative;
+    top: 3.5rem;
+    height: 10rem;
+}
+.name{
+    position: relative;
+    top: 3rem;
+    left: 1rem;
+}
+p{
+    margin: 0.5rem;
+    font-size: 1.3rem;
+    color:white;
+}
+.address{
+    font-size: 1rem;
+}
+.photo{
+    width: 3rem;
+    float: left;
+    margin-right: 3rem;
+}
+img{
+    padding: 0 0.5rem;
+}
+.bar{
+    height: 1rem;
+    padding: 0 0.5rem 0 1rem;
+}
+.skills{
+    display: table;
+    position: relative;
+    top: 4rem;
+    width: 100%;
+    font-size:1.5rem;
+    line-height: 3rem;
+}
+.content{
+    display: table-cell;
+    vertical-align: middle;
+    border-bottom: solid grey;
+}
+table{
+    position: relative;
+    top: 4rem;
+    vertical-align:middle;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    border-collapse:collapse;
+    left: 5%;
+    width: 90%;
+}
+td{
+    border-bottom: solid grey;
+}
+.red{
+    color: red;
+}
+.grey{
+    color: grey;
+    width: 6rem;
+}
+footer{
+    background-color:white;
+    height: 4rem;
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+}
+.message-btn{
+    width: 40%;
+    height:3rem;
+    color: rgb(95,192,205);
+    border: solid;
+    border-color: rgb(95,192,205);
+    border-radius: 15%;
+    float:left;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    display: table;
+}
+.contact-btn{
+    width: 40%;
+    height:3rem;
+    color: white;
+    background-color: rgb(95,192,205);
+    border: solid;
+    border-color: rgb(95,192,205);
+    float: right;
+    border-radius: 10%;
+    position: relative;
+    top: 10%;
+    right: 5%;
+    display: table;
+}
+.ft-text{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
