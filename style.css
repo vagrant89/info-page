@@ -69,7 +69,7 @@ img{
 .content{
     display: table-cell;
     vertical-align: middle;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #ccc;
 }
 table{
     position: relative;
@@ -82,7 +82,7 @@ table{
     width: 90%;
 }
 td{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #ccc;
 }
 .red{
     color: red;
